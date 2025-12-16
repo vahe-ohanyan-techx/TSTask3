@@ -1,7 +1,7 @@
 // Task1
 
 const reverseArray = <T>(arr:T[]):T[] => {
-        return [...arr.reverse()]
+        return [...arr].reverse()
 }
 console.log(reverseArray<string>(["v","a","h","e"]))
 console.log(reverseArray<number>([1,2,3,4]))
